@@ -1,0 +1,9 @@
+You: Hi
+AI: AI response to: 'Hi'
+
+You: How are you?
+AI: AI response to: 'How are you?'
+
+You: Bye
+AI: AI response to: 'Bye'
+
