@@ -1,0 +1,21 @@
+from playwright.sync_api import sync_playwright
+import time
+
+def open_linkedin():
+    with sync_playwright() as p:
+        # Opens a real browser window you can see
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
+        
+        # Go to LinkedIn
+        print("Opening LinkedIn...")
+        page.goto("https://www.linkedin.com")
+        
+        print("LinkedIn opened! You can see the browser.")
+        print("Agent is ready!")
+        
+        # Wait 30 seconds so you can see it
+        time.sleep(30)
+        browser.close()
+
+open_linkedin()
