@@ -1,11 +1,94 @@
 # Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# API Keys
-*.key
-secrets.py
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# VS Code
+# IDE and Editors
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+env.*.py
+secrets.py
+config.local.py
+
+# API Keys and Credentials
+*.key
+*.pem
+*.pfx
+api_keys.txt
+credentials.json
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Log files
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
